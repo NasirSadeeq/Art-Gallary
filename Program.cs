@@ -24,8 +24,8 @@ builder.Services.AddAuthentication(Options=>{
 }).AddCookie(options=>{
     options.LoginPath="/account/facebook-login";
 }).AddFacebook(options=>{
-    options.AppId="1631830890586518";
-    options.AppSecret="a124ac057e92e0df62507595cf2a54a9";
+    options.AppId="AppId";
+    options.AppSecret="AppSecrete";
 });
 builder.Services.AddAuthentication(authenoption =>
 {
